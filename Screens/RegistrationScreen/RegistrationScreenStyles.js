@@ -18,6 +18,10 @@ export const styles = StyleSheet.create({
     position: "absolute",
     bottom: 14,
     right: -14,
+    backgroundColor: "#FFFFFF",
+    borderColor: "#FFFFFF",
+    borderRadius: 50,
+    borderWidth: 0,
   },
   form: {
     width: "100%",

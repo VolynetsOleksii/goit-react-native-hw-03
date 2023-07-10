@@ -16,6 +16,7 @@ function LoginScreen() {
   const [isEmailFocused, setIsEmailFocused] = useState(false);
   const [isPasswordFocused, setIsPasswordFocused] = useState(false);
   const [visiblePassword, setVisiblePassword] = useState(false);
+  
 
   const toggleVisiblePassword = () => {
     setVisiblePassword(!visiblePassword);

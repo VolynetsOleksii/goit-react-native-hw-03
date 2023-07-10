@@ -22,7 +22,7 @@ export default function App() {
         resizeMode="cover"
         style={styles.image}
       />
-      <LoginScreen />
+      <RegistrationScreen />
     </View>
   );
 }
